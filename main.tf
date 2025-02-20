@@ -36,7 +36,7 @@ module "blog_vpc" {
 
 module "autoscaling" {
   source  = "terraform-aws-modules/autoscaling/aws"
-  version = "8.1.0"
+  version = "7.6.1"
 
   name = "blog"
   min_size = 1
