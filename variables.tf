@@ -25,7 +25,7 @@ variable "environment" {
     network_prefix = string
   })
 
-  default {
+  default = {
     name = "dev"
     cidr = "10.0"
   }
